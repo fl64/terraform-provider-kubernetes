@@ -149,6 +149,22 @@ require (
 replace (
 	github.com/go-openapi/spec => github.com/go-openapi/spec v0.20.9
 	k8s.io/client-go => k8s.io/client-go v0.27.7
+	k8s.io/cloud-provider => k8s.io/cloud-provider v1.28.6
+	k8s.io/cluster-bootstrap => k8s.io/cluster-bootstrap v1.28.6
+	k8s.io/controller-manager => k8s.io/controller-manager v1.28.6
+	k8s.io/cri-api => k8s.io/cri-api v1.28.6
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v1.28.6
+	k8s.io/dynamic-resource-allocation => k8s.io/dynamic-resource-allocation v1.28.6
+	k8s.io/endpointslice => k8s.io/endpointslice v1.28.6
+	k8s.io/kube-controller-manager => k8s.io/kube-controller-manager v1.28.6
+	k8s.io/kube-proxy => k8s.io/kube-proxy v1.28.6
+	k8s.io/kube-scheduler => k8s.io/kube-scheduler v1.28.6
+	k8s.io/kubelet => k8s.io/kubelet v1.28.6
+	k8s.io/legacy-cloud-providers => k8s.io/legacy-cloud-providers v1.28.6
+	k8s.io/mount-utils => k8s.io/mount-utils v1.28.6
+	k8s.io/pod-security-admission => k8s.io/pod-security-admission v1.28.6
+	k8s.io/sample-apiserver => k8s.io/sample-apiserver v1.28.6
+
 // sigs.k8s.io/kustomize/pkg/transformers => ./vendor/k8s.io/cli-runtime/pkg/kustomize/k8sdeps/transformer
 // sigs.k8s.io/kustomize/pkg/transformers/config => ./vendor/k8s.io/cli-runtime/pkg/kustomize/k8sdeps/transformer/config
 )
